@@ -1,0 +1,14 @@
+[freesign-arch]
+name=FreeSIGN ARCH
+baseurl=https://freesign.net/freesign-repo/fedora/updates/$releasever/$basearch
+enabled=1
+
+[freesign-src]
+name=FreeSIGN Repo SRPMS
+baseurl=https://freesign.net/freesign-repo/fedora/updates/$releasever/SRPMS
+enabled=1
+
+[freesign-noarch]
+name=FreeSIGN Repo Noarch
+baseurl=https://freesign.net/freesign-repo/fedora/updates/$releasever/noarch
+enabled=1
